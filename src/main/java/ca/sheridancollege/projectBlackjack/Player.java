@@ -15,6 +15,7 @@ public class Player {
     public Player(String name) {
         this.name = name;
         this.hand = new ArrayList<>();
+        System.out.print("hello");
     }
 
     public void addCard(Card card) {
